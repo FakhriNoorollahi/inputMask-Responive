@@ -1,0 +1,61 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 370px;
+  height: 3em;
+  background-color: rgba(26, 25, 25, 0.6);
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  margin-top: 8em;
+  color: #fff;
+  padding: 0.5em 0.9em 0.5em 1.18em;
+}
+
+.input.inputBorder {
+  border-radius: 0.3em;
+}
+
+.input input {
+  width: 100%;
+  font-size: 1.3em;
+  z-index: 2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif3;
+  background-color: unset;
+  outline: none;
+  border: 0;
+  color: var(--light-blue);
+  caret-color: var(--yellow);
+}
+
+.input input::placeholder {
+  color: var(--yellow);
+}
+
+.input label {
+  padding: 0.5em 0;
+  position: absolute;
+  left: 0.9em;
+  bottom: -1px;
+  font-size: 1.3em;
+  opacity: 0.3;
+  z-index: 1;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  color: var(--light-blue);
+}
+
+.inputLabel {
+  width: 85%;
+}
+
+.icon {
+  width: 25px;
+  color: var(--yellow);
+}
