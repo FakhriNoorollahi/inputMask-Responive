@@ -13,6 +13,7 @@
   margin-top: 8em;
   color: #fff;
   padding: 0.5em 0.9em 0.5em 1.18em;
+  transition: all 0.5s ease-in-out;
 }
 
 .input.inputBorder {
@@ -58,4 +59,10 @@
 .icon {
   width: 25px;
   color: var(--yellow);
+}
+
+@media screen and (max-width: 480px) {
+  .input {
+    width: 250px;
+  }
 }

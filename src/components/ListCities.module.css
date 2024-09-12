@@ -35,3 +35,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .listCiteis {
+    width: 250px;
+  }
+}
